@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <style>
+        body {
+            font-family: Italic;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #e726c7;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #8cc5cf;
+            color: rgb(7, 8, 8);
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            section {
+                padding: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Responsive Landing Page</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to our website!</h2>
+        <p>This is the Responsive landing page. If you perform any actions like clicking the click me button it will response immediately like button clicked.</p>
+        <button onclick="alert('Button Clicked!')">Click me</button>
+    </section>
+
+    <footer>
+        &copy; 2023 Green Hill company
+    </footer>
+</body>
+
+</html>
